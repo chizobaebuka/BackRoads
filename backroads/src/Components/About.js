@@ -1,4 +1,6 @@
-import React from 'react'
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
+import aboutImg from '../images/about.jpeg'
 
 const About = () => {
     return (
@@ -10,7 +12,7 @@ const About = () => {
             <div className="section-center about-center">
                 <div className="about-img">
                     <img
-                        src="./images/about.jpeg"
+                        src={aboutImg}
                         className="about-photo"
                         alt="awesome beach"
                     />
